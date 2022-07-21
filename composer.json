@@ -1,0 +1,13 @@
+{
+    "name": "chargebee/testing",
+    "description": "Chargebee API testing",
+    "require": {
+        "chargebee/chargebee-php": ">=2, <3",
+        "vlucas/phpdotenv": "^5.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "src"
+        }
+    }
+}
